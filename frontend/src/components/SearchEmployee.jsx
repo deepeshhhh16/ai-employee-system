@@ -10,7 +10,8 @@ function SearchEmployee(){
     const handleSearch = async()=>{
 
         const res = await axios.get(
-            `http://localhost:5000/api/employees/search?department=${department}`
+           " https://ai-employee-backend-3lkr.onrender.com"
+
         );
 
         setEmployees(res.data);

@@ -34,7 +34,8 @@ function EmployeeForm(){
         };
 
         await axios.post(
-            "http://localhost:5000/api/employees",
+         "https://ai-employee-backend-3lkr.onrender.com" ,
+
             employeeData
         );
 
